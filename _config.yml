@@ -1,6 +1,7 @@
 # Blog settings
 permalink: /:year:month:day/:title
 url: http://h01000110.github.io
+baseurl: /projeto
 
 # My variables
 name: hi
