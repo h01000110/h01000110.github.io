@@ -1,5 +1,6 @@
-# getmicah.github.io
-My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
+# some things, by hi
 
-### License
-All this stuff is under the [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
+### Theme
+[Basic](http://jekyllthemes.org/themes/basic/)
+Author: Micah Cowell
+License: MIT
