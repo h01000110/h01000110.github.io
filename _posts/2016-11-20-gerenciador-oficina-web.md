@@ -19,7 +19,7 @@ sem data para conclusão, melhoria contínua é o limite :D
 estatísticas mensais  
 banco de dados sqlite3  
 backup de serviços completos em pdf  
-multi-linguagens (pt-BR, en-US)  
+multilinguagens (pt-BR, en-US)  
 
 ## recursos de terceiros
 [Font Awesome by Dave Gandy](http://fontawesome.io/)  
