@@ -25,6 +25,7 @@ multi-linguagens (pt-BR, en-US)
 [Font Awesome by Dave Gandy](http://fontawesome.io/)  
 [Circle Icons by Nick Roach](https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free)  
 
+
 > **changelog**  
 20-11-2016 versão 0.1  
 25-11-2016 versão 0.0.2 adicionado idioma inglês, verificação de campos e correção de bugs
