@@ -16,15 +16,11 @@ sem data para conclusão, melhoria contínua é o limite :D
 [Flask](http://flask.pocoo.org/)  
 
 ## instalação
-```bash
-$ git clone https://github.com/h01000110/gerenciador-oficina-web.git  
+> $ git clone https://github.com/h01000110/gerenciador-oficina-web.git  
 $ pip3 install -r requirements.txt  
-```
 
 ## executar
-```bash
-$ python3 run.py runserver
-```
+> $ python3 run.py runserver  
 
 ## características
 > filtro visual para pagamentos em aberto  
