@@ -8,11 +8,23 @@ keywords: "projeto, flask, python"
 seguindo a ideia do gerenciador feito em shell, mas com outros recursos e opções melhores. 
 sem data para conclusão, melhoria contínua é o limite :D
 
-[![version](https://img.shields.io/badge/version-v_0.0.2-blue.svg?style=flat-square)](https://h01000110.github.io/20161120/gerenciador-oficina-web)
-[![license](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://github.com/h01000110/gerenciador-oficina-web/blob/master/LICENSE)  
+[![version](https://img.shields.io/badge/version-v_0.0.2-blue.svg)](https://h01000110.github.io/20161120/gerenciador-oficina-web)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/h01000110/gerenciador-oficina-web/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/h01000110/gerenciador-oficina-web.svg?branch=master)](https://travis-ci.org/h01000110/gerenciador-oficina-web)  
 
 ## framework
 [Flask](http://flask.pocoo.org/)  
+
+## instalação
+```bash
+$ git clone https://github.com/h01000110/gerenciador-oficina-web.git  
+$ pip3 install -r requirements.txt  
+```
+
+## executar
+```bash
+$ python3 run.py runserver
+```
 
 ## características
 > filtro visual para pagamentos em aberto  
