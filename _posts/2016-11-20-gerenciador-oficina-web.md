@@ -33,7 +33,7 @@ localização de clientes(necessário internet)
 ## localização de clientes
 siga esses passos para gerar sua key: [GoogleMaps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) and [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#GetStarted);  
 coloque a key no seguinte arquivo **app/templates/mapa.html**  
-```html
+```
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 ```
 
