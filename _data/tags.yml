@@ -1,8 +1,14 @@
+en-us:
+  name: en us
+
 flask:
   name: flask
 
 jquery:
   name: jquery
+
+project:
+  name: project
 
 projeto:
   name: projeto

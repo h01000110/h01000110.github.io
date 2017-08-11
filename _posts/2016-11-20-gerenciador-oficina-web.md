@@ -31,7 +31,7 @@ estatísticas mensais
 banco de dados sqlite3  
 backup de serviços completos em pdf  
 multilinguagens (pt-BR, en-US)  
-localização de clientes(necessário internet)  
+localização de clientes(necessário internet)
 
 ## localização de clientes
 siga esses passos para gerar sua key: [GoogleMaps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) and [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#GetStarted);  
@@ -44,9 +44,8 @@ coloque a key no seguinte arquivo **app/templates/mapa.html**
 [Font Awesome by Dave Gandy](http://fontawesome.io/)  
 [Circle Icons by Nick Roach](https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free)  
 
-
-> **changelog**  
-20-11-2016 versão 0.1  
+## changelog
+> 20-11-2016 versão 0.1  
 25-11-2016 versão 0.0.2 adicionado idioma inglês, verificação de campos e correção de bugs  
 01-12-2016 versão 0.0.3 adicionado localização de clientes usando google maps api e correção de bugs
 
