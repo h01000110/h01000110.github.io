@@ -1,3 +1,7 @@
+permalink: /:year:month:day/:title
+url: http://h01000110.github.io
+baseurl: /projeto
+
 # variables
 name: h01000110 'C:\'
 description: things
