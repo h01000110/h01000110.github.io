@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Change Language - exemplo básico"
-comments: true
-keywords: "python, flask"
+tags: python flask pt-br
 ---
 
 utilizando um arquivo externo é possível fazer este recurso muito legal, suporte a várias linguas!

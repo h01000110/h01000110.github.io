@@ -1,0 +1,23 @@
+css:
+  name: css
+
+flask:
+  name: flask
+
+jquery:
+  name: jquery
+
+projeto:
+  name: projeto
+
+python:
+  name: python
+
+shell-script:
+  name: shell script
+
+svg:
+  name: svg
+
+web:
+  name: web

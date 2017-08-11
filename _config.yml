@@ -1,11 +1,6 @@
-# Blog settings
-permalink: /:year:month:day/:title
-url: http://h01000110.github.io
-baseurl: /projeto
-
-# My variables
-name: hi
-description: Desenvolvimento e Aprendizado
+# variables
+name: h01000110 'C:\'
+description: things
 google_verification: null
 
 
@@ -13,21 +8,13 @@ google_verification: null
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
-og_locale: "pt_BR"
-disqus_shortname: "h01000110"
-twitter_username: "h01000110"
-twitter_card: "summary_large_image"
-twitter_site: "@h01000110"
-
 # Sass
 sass:
   style: :compressed
   sass_dir: _sass
 
-
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-highlighter: rouge
+  highlighter: rouge

@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Gerenciador de Oficina/Web"
-comments: true
-keywords: "projeto, flask, python"
+tags: projeto flask python pt-br
 ---
 
 seguindo a ideia do gerenciador feito em shell, mas com outros recursos e opções melhores. 
@@ -16,11 +15,15 @@ sem data para conclusão, melhoria contínua é o limite :D
 [Flask](http://flask.pocoo.org/)  
 
 ## instalação
-> $ git clone https://github.com/h01000110/gerenciador-oficina-web.git  
-$ pip3 install -r requirements.txt  
+{% highlight bash linenos %}
+$ git clone https://github.com/h01000110/gerenciador-oficina-web.git
+$ pip3 install -r requirements.txt
+{% endhighlight %}
 
 ## executar
-> $ python3 run.py runserver  
+{% highlight bash linenos %}
+$ python3 run.py runserver
+{% endhighlight %}
 
 ## características
 > filtro visual para pagamentos em aberto  
@@ -33,9 +36,9 @@ localização de clientes(necessário internet)
 ## localização de clientes
 siga esses passos para gerar sua key: [GoogleMaps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) and [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#GetStarted);  
 coloque a key no seguinte arquivo **app/templates/mapa.html**  
-```
+{% highlight html linenos %}
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-```
+{% endhighlight %}
 
 ## recursos de terceiros
 [Font Awesome by Dave Gandy](http://fontawesome.io/)  

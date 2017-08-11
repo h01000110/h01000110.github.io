@@ -1,8 +1,8 @@
-# some things, by hi
+# h01000110, by hi
 
 ### Theme
-[Basic](http://jekyllthemes.org/themes/basic/)
+Windows 95 Web
 
-Author: Micah Cowell
+Author: [h01000110 (hi)](https://github.com/h01000110)
 
-License: MIT
+License: [MIT](https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE)
