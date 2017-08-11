@@ -4,7 +4,7 @@ title: "Car Repair Shop Manager/Web"
 tags: project python flask en-us
 ---
 
-just a free manager made in Python, with more features than earlier made in shell.
+just a free manager made in Python, with more features than earlier manager made in shell.
 
 [![version](https://img.shields.io/badge/version-v_0.0.3-blue.svg)](https://h01000110.github.io/20161120/gerenciador-oficina-web)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/h01000110/gerenciador-oficina-web/blob/master/LICENSE)
