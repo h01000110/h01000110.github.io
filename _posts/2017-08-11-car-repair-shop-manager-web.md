@@ -14,15 +14,15 @@ just a free manager made in Python, with more features than earlier manager made
 [Flask](http://flask.pocoo.org/)
 
 ## installation
-{% highlight bash linenos %}
+```bash
 $ git clone https://github.com/h01000110/gerenciador-oficina-web.git  
 $ pip3 install -r requirements.txt  
-{% endhighlight %}
+```
 
 ## run
-{% highlight bash linenos %}
+```bash
 $ python3 run.py runserver
-{% endhighlight %}
+```
 
 ## features
 > multi-view  
@@ -35,9 +35,9 @@ $ python3 run.py runserver
 ## client localization
 follow these steps to getting your Key: [GoogleMaps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) and [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#GetStarted);  
 paste your key in **app/templates/mapa.html**  
-{% highlight html linenos %}
+```html
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-{% endhighlight %}
+```
 
 ## resources
 [Font Awesome by Dave Gandy](http://fontawesome.io)  

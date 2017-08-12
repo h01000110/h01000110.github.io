@@ -1,7 +1,7 @@
-#[h01000110, by hi](https://h01000110.github.io/)
+# [h01000110, by hi](https://h01000110.github.io/)
 
 ### Theme
-Windows 95 Web
+Windows 95
 
 Author: [h01000110 (hi)](https://github.com/h01000110)
 
