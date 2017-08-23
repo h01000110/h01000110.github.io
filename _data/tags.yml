@@ -4,8 +4,14 @@ en-us:
 flask:
   name: flask
 
+javascript:
+  name: javascript
+
 jquery:
   name: jquery
+
+modification:
+  name: modification
 
 project:
   name: project

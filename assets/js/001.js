@@ -8,9 +8,11 @@ function maximize () {
 	var post = document.getElementsByClassName("content")[0];
 	var cont = document.getElementsByClassName("post_content")[0];
 	var wid = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName("body")[0].clientWidth;
+
 	if (wid > 900) {
 		widf = wid * 0.9;
 		post.style.width = widf + "px";
+
 		if (wid < 1150) {
 			cont.style.width = "98.4%";
 		} else {
@@ -23,6 +25,7 @@ function minimize () {
 	var post = document.getElementsByClassName("content")[0];
 	var cont = document.getElementsByClassName("post_content")[0];
 	var wid = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName("body")[0].clientWidth;
+
 	if ( wid > 900 ) {
 		post.style.width = "800px";
 		cont.style.width = "98.8%";
