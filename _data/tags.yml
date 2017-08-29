@@ -1,3 +1,9 @@
+adblock:
+  name: adblock
+
+css:
+  name: css
+
 en-us:
   name: en us
 
