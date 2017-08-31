@@ -8,6 +8,8 @@ tags: javascript modification youtube en-us
 * open your videos always in theater mode;  
 * disable video annotations automatically
 
+*compatible with new appearance
+
 ## changelog
 > 2017-08-23 version 0.1
 

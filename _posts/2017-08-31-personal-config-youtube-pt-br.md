@@ -8,6 +8,8 @@ tags: javascript modification youtube pt-br
 * abre seus vídeos sempre em modo teatro;  
 * desativa as anotações automaticamente
 
+*compatível com o novo visual
+
 ## changelog
 > 2017-08-23 version 0.1
 
