@@ -36,3 +36,6 @@ shell-script:
 
 svg:
   name: svg
+
+youtube:
+  name: youtube
