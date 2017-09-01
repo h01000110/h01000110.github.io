@@ -11,7 +11,8 @@ tags: javascript modification youtube en-us
 *compatible with new appearance
 
 ## changelog
-> 2017-08-23 version 0.1
+> 2017-08-23 version 0.1  
+2017-09-01 version 0.2 bug fix
 
 [source code](https://github.com/h01000110/js-scripts/blob/master/personal-config-youtube.user.js)  
 [install script](https://github.com/h01000110/js-scripts/raw/master/personal-config-youtube.user.js)
