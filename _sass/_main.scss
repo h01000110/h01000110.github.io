@@ -11,7 +11,7 @@ body {
 	background: #bfb8bf;
 	border: 2px solid;
 	border-color: #fff8ff #000000 #000000 #fff8ff;
-	padding: 2px;
+	padding: 2px 0;
 }
 .default_title, .post_title {
 	padding: 2px 4px 3px 4px;
@@ -93,15 +93,14 @@ ul.topbar {
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
-	margin: 0 1px;
+}
+.post_list {
+	width: 70.2%;
+	margin: 0 auto;
 	min-height: 150px;
 	max-height: 150px;
 	overflow-y: scroll;
 	display: inline-block;
-}
-.post_list {
-	float: right;
-	width: 70.2%;
 
 	ul {
 		list-style: none;
@@ -130,6 +129,11 @@ ul.topbar {
 }
 .tag_list {
 	width: 28%;
+	margin: 0 auto;
+	min-height: 150px;
+	max-height: 150px;
+	overflow-y: scroll;
+	display: inline-block;
 
 	img {
 		height: 16px;
@@ -167,7 +171,6 @@ ul.topbar {
     padding:0 0 0 20px;
 }
 .post_total {
-	margin: 2px 1px 0 1px;
 	.left, .right {
 		border: 1px solid;
 		border-color: #888888 #dadada #dadada #888888;
@@ -176,18 +179,22 @@ ul.topbar {
 	}
 	.left {
 		width: 33%;
+		margin-left: 2px;
 	}
 	.right {
-		float: right;
-		width: 64.6%;
+		width: 64%;
+		margin-right: 2px;
 	}
 }
 .post_content {
 	position: relative;
-	width: 98.8%;
+	width: 98.5%;
 	min-height: 600px;
 	max-height: 600px;
 	padding: 2px;
+	margin: 0 auto;
+	overflow-y: scroll;
+	overflow-x: scroll;
 
 	p {
 		line-height: 150%;
@@ -278,7 +285,7 @@ ul.topbar {
 }
 .footer {
 	font-size: 12px;
-	margin: 40px 0 10px 0;
+	margin: 30px 0 10px 0;
 
 	p {
 		text-align: center;
@@ -294,6 +301,7 @@ ul.topbar {
 
 	p {
 		text-align: right;
+		word-break: break-word;
 	}
 }
 @media only screen and (max-width: 900px) {
@@ -318,6 +326,15 @@ ul.topbar {
 	.wrapper {
 		width: 90%;
 	}
+	.post_total {
+		.left {
+			width: 37%;
+		}
+		.right {
+			float: right;
+			width: 60%;
+		}
+	}
 }
 @media only screen and (max-width: 750px) {
 	.tag_list {
@@ -329,7 +346,7 @@ ul.topbar {
 	}
 	.post_total {
 		.left {
-			width: 37%;
+			width: 36%;
 		}
 		.right {
 			float: right;
@@ -339,19 +356,36 @@ ul.topbar {
 }
 @media only screen and (max-width: 610px) {
 	.tag_list {
-		width: 98%;
+		width: 98.7%;
 	}
 	.post_list {
-		width: 98%;
+		width: 98.7%;
 		float: left;
 	}
 	.post_total {
 		.left {
+			width: 35.7%;
+		}
+	}
+}
+@media only screen and (max-width: 520px) {
+	.post_total {
+		.left {
+			width: 34.5%;
+		}
+	}
+}
+@media only screen and (max-width: 410px) {
+	.post_total {
+		.left {
 			width: 34%;
 		}
-		.right {
-			float: right;
-			width: 60%;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.post_total {
+		.left {
+			width: 33%;
 		}
 	}
 }

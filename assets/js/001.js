@@ -13,8 +13,8 @@ function maximize () {
 		widf = wid * 0.9;
 		post.style.width = widf + "px";
 
-		if (wid < 1150) {
-			cont.style.width = "98.4%";
+		if (wid < 1400) {
+			cont.style.width = "99%";
 		} else {
 			cont.style.width = "99.4%";
 		}
@@ -28,7 +28,7 @@ function minimize () {
 
 	if ( wid > 900 ) {
 		post.style.width = "800px";
-		cont.style.width = "98.8%";
+		cont.style.width = "98.5%";
 	}
 }
 
