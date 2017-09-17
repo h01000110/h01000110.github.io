@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Sortable Flask - save to database"
 tags: python flask jquery pt-br
 ---

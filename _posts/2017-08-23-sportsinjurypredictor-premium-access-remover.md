@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Sports Injury Predictor Premium Access Remover"
 tags: javascript modification en-us
 ---

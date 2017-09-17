@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Gerenciador de Oficina/Web"
 tags: projeto flask python pt-br
 ---

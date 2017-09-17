@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Car Repair Shop Manager/Web"
 tags: project python flask en-us
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Gerenciador de Oficina"
 tags: projeto shell-script pt-br
 ---

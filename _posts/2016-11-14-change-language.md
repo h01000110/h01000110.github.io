@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Change Language - exemplo básico"
 tags: python flask pt-br
 ---
