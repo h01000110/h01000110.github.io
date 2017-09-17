@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="header">
+	<h1>Index of {{ site.name }}{{ page.url }}</h1>
+	<ul>
+		<li>Name</li>
+		<li>Date</li>
+		<li>Tags</li>
+		<li><a href="http://soundcloud.com/h01000110" target="_blank">SoundCloud</a></li>
+		<li><a href="http://twitter.com/h01000110" target="_blank">Twitter</a></li>
+		<li><a href="/about">About</a></li>
+	</ul>
+</div>
+<hr class="line">
+<div class="posts">
+	<table>
+		<tr>
+			<td><a href="/">← Parent Directory</a></td>
+			<td>&nbsp;-&nbsp;</td>
+			<td>&nbsp;-&nbsp;</td>
+		</tr>
+	{% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+		<tr>
+			<td><a href="/tag/{{ tag[0] }}/" title="{{ tag[0] }}">{{ tag[0] }}</a></td>
+			<td>&nbsp;-&nbsp;</td>
+			<td>&nbsp;-&nbsp;</td>
+		</tr>
+	{% endfor %}
+	</table>
+</div>
+<script src="/assets/js/001.js"></script>

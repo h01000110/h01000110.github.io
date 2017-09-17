@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Outlook Fix"
 tags: css modification adblock en-us
 ---

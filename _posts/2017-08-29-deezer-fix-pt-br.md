@@ -1,7 +1,7 @@
 ---
-layout: default
-title: "Deezer Fix"
-tags: css modification adblock en-us
+layout: post
+title: "Deezer Fix.pt_BR"
+tags: css modification adblock pt-br
 ---
 
 esse css remove os anúncios superiores e inferiores e o botão assinar.

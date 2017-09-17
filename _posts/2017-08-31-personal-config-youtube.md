@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Personal Config 4 Youtube"
 tags: javascript modification youtube en-us
 ---

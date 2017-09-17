@@ -1,200 +1,48 @@
 body {
-	background: #008082;
-	font-family: sans-serif, serif, monospace;
-	font-size: 13px;
+	margin: 8px;
+	font-family: monospace;
 }
-
-.wrapper, .content {
-	width: 800px;
-	margin: auto;
-	margin-top: 20px;
-	background: #bfb8bf;
-	border: 2px solid;
-	border-color: #fff8ff #000000 #000000 #fff8ff;
-	padding: 2px 0;
-}
-.default_title, .post_title {
-	padding: 2px 4px 3px 4px;
-	position: relative;
-
+.header {
 	h1 {
-		color: #bfb8bf;
-		font-size: 14px;
+		font-size: 32px;
 		font-weight: bold;
+		margin: 10px 0 25px;
+		font-family: serif;
 	}
-	
-	img {
-		float: left;
-		width: 14px;
-		height: 14px;
-		margin: 0 3px 0 0;
-	}
-}
-.post_title {
-	h1 {
-		display: inline-block;
-	}
-
-	a {
-		color: #000000;
-	}
-
-	.btn {
-		background: #cccccc;
-		width: 13px;
-		height: 11px;
-		float: right;
-		border: 2px solid;
-		border-color: #fff8ff #000000 #000000 #fff8ff;
-
-		span {
-			font-size: 11px;
-			position: relative;
-			left: 2px;
-			top: -2px;
-		}
-
-		.fa-window-minimize {
-			font-size: 10px;
-			left: 1px;
-		}
-
-		.fa-window-maximize {
-			font-size: 10px;
-			left: 1px;
-		}
-	}
-
-	.btn_max {
-		margin: 0 3px 0 0;
-	}
-
-	.btn:active {
-		width: 12px;
-		height: 10px;
-	}
-}
-ul.topbar {
-	list-style: none;
-	padding: 0 10px;
-	margin: 3px 0 3px 0;
-
-	li {
-		display: inline-block;
-		margin: 0 5px 0 0;
-	}
-	a {
-		text-decoration: none;
-		color: #000000;
-	}
-}
-.post_list, .tag_list, .post_content {
-	background: #fff8ff;
-	border-width: 2px;
-	border-style: ridge groove groove ridge;
-	border-color: #7f787f #fff8ff #fff8ff #7f787f;
-}
-.post_list {
-	width: 70.2%;
-	margin: 0 auto;
-	min-height: 150px;
-	max-height: 150px;
-	overflow-y: scroll;
-	display: inline-block;
-
 	ul {
-		list-style: none;
+		width: 100%;
 
 		li {
 			display: inline-block;
-			margin: 10px;
-			max-width: 16ch;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-			text-align: center;
-
-			img {
-				display: block;
-				margin: 0 auto;
-				margin-bottom: 8px;
-			}
-
-			a {
-				text-decoration: none;
-				color: #000000;
-			}
+		}
+		li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+			float: right;
+			margin-left: 20px;
 		}
 	}
 }
-.tag_list {
-	width: 28%;
-	margin: 0 auto;
-	min-height: 150px;
-	max-height: 150px;
-	overflow-y: scroll;
-	display: inline-block;
+.line {
+	margin: 8px 0;
+}
+.posts {
+	tr {
+		line-height: 25px;
+	}
+	tr > td {
+		text-align: left;
+		padding-right: 15px;
+	}
+}
+.footer {
+	p {
+		font-family: serif;
+		font-style: italic;
+	}
+}
 
-	img {
-		height: 16px;
-		width: 16px;
-		margin: -2px 5px;
-	}
+// MARKDOWN
 
-	a {
-		text-decoration: none;
-		color: #000000;
-	}
-
-	ul {
-		li {
-			max-width: 27ch;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-		}
-	}
-}
-#tag-list {
-    background:transparent url(/assets/img/pixel-alt.png) repeat-y 15px 0;
-}
-#tag-list li {
-    padding:0 0 0 2px;
-}
-#tag-list li a {
-    background: #fff8ff;
-    display:block;
-}
-#tag-list li ul li {
-    background:transparent url(/assets/img/pixel-alt.png) repeat-x 0 8px;
-    margin:4px 0 4px 13px;
-    padding:0 0 0 20px;
-}
-.post_total {
-	.left, .right {
-		border: 1px solid;
-		border-color: #888888 #dadada #dadada #888888;
-		display: inline-block;
-		padding: 1px 3px;
-	}
-	.left {
-		width: 33%;
-		margin-left: 2px;
-	}
-	.right {
-		width: 64%;
-		margin-right: 2px;
-	}
-}
 .post_content {
-	position: relative;
-	width: 98.5%;
-	min-height: 600px;
-	max-height: 600px;
-	padding: 2px;
-	margin: 0 auto;
-	overflow-y: scroll;
-	overflow-x: scroll;
 
 	p {
 		line-height: 150%;
@@ -202,7 +50,6 @@ ul.topbar {
 	}
 
 	a {
-		color: #0000ff;
 		margin-bottom: 15px;
 	}
 
@@ -280,159 +127,66 @@ ul.topbar {
 		margin-bottom: 15px;
 	}
 }
-.hljs {
-	background: #fff8ff;
+
+// END MARKDOWN
+
+.title {
+	margin-top: 25px !important;
 }
-.footer {
-	font-size: 12px;
-	margin: 30px 0 10px 0;
-
-	p {
-		text-align: center;
-
-		a {
-			color: #24244a;
-		}
-	}
+.hljs {
+	background: rgba(0, 0, 0, 0);
 }
 .donate {
+	width: 100%;
 	float: right;
 	padding: 0 3px 0 0;
+	margin-bottom: 20px;
 
 	p {
 		text-align: right;
 		word-break: break-word;
 	}
 }
-@media only screen and (max-width: 900px) {
-    .content {
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 700px) {
-    .content {
-        width: 90%;
-    }
-	.post_content {
-		width: 98%;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.post_content {
-		width: 97%;
-	}
-}
-@media only screen and (max-width: 810px) {
-	.wrapper {
-		width: 90%;
-	}
-	.post_total {
-		.left {
-			width: 37%;
+@media only screen and (max-width: 990px) {
+	.header {
+		h1 {
+			font-size: 25px;
 		}
-		.right {
-			float: right;
-			width: 60%;
+		ul {
+			li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+				position: absolute;
+				right: 5px;
+			}
+			li:nth-child(6) {
+				top: 5px;
+			}
+			li:nth-child(5) {
+				top: 22px;
+			}
+			li:nth-child(4) {
+				top: 39px;
+			}
 		}
 	}
 }
-@media only screen and (max-width: 750px) {
-	.tag_list {
-		width: 99%;
-	}
-	.post_list {
-		width: 99%;
-		float: left;
-	}
-	.post_total {
-		.left {
-			width: 36%;
-		}
-		.right {
-			float: right;
-			width: 60%;
+@media only screen and (max-width: 470px) {
+	.header {
+		h1 {
+			font-size: 20px;
 		}
 	}
 }
-@media only screen and (max-width: 610px) {
-	.tag_list {
-		width: 98.7%;
-	}
-	.post_list {
-		width: 98.7%;
-		float: left;
-	}
-	.post_total {
-		.left {
-			width: 35.7%;
+@media only screen and (max-width: 385px) {
+	.header {
+		h1 {
+			font-size: 17px;
 		}
 	}
 }
-@media only screen and (max-width: 520px) {
-	.post_total {
-		.left {
-			width: 34.5%;
+@media only screen and (max-width: 337px) {
+	.header {
+		h1 {
+			font-size: 15px;
 		}
 	}
 }
-@media only screen and (max-width: 410px) {
-	.post_total {
-		.left {
-			width: 34%;
-		}
-	}
-}
-@media only screen and (max-width: 375px) {
-	.post_total {
-		.left {
-			width: 33%;
-		}
-	}
-}
-::-webkit-scrollbar {
-      width: 16px;
-} /* this targets the default scrollbar (compulsory) */
-::-webkit-scrollbar-track {
-	background-image: url("/assets/img/track.png");
-	background-repeat: repeat-x repeat-y;
-} /* the new scrollbar will have a flat appearance with the set background color */
- 
-::-webkit-scrollbar-thumb {
-	background-color: #cccccc;
-	border-width: 2px;
-	border-style: groove ridge ridge groove;
-	border-color: #fff8ff #000000 #000000 #fff8ff;
-} /* this will style the thumb, ignoring the track */
- 
-::-webkit-scrollbar-button {
-	background-color: #cccccc;
-	border-width: 2px;
-	border-style: groove ridge ridge groove;
-	border-color: #fff8ff #000000 #000000 #fff8ff;
-	background-position: center center;
-	background-repeat: no-repeat;
-
-	&:vertical:decrement {
-		background-image: url("/assets/img/up.png");
-	}
-
-	&:vertical:increment {
-		background-image: url("/assets/img/down.png");
-	}
-
-	&:horizontal:decrement {
-		background-image: url("/assets/img/left.png");
-	}
-
-	&:horizontal:increment {
-		background-image: url("/assets/img/right.png");
-	}
-
-	&:active {
-		background-position: 1px 2px;
-	}
-} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
-::-webkit-scrollbar-corner {
-	background-color: #cacaca;
-} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */

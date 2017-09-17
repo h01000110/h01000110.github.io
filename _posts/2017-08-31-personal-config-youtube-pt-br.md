@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Personal Config 4 Youtube"
+layout: post
+title: "Personal Config 4 Youtube.pt_BR"
 tags: javascript modification youtube pt-br
 ---
 

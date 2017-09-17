@@ -1,36 +1,69 @@
-// By: h01000110 (hi)
-// github.com/h01000110
 
-var max = document.getElementsByClassName("btn")[1];
-var min = document.getElementsByClassName("btn")[2];
+function tab () {
+	var header = document.getElementsByClassName("header")[0];
+	var col = header.getElementsByTagName("li");
+	var posts = document.getElementsByClassName("posts")[0];
+	var target = posts.getElementsByTagName("td");
+	for (i = 0; i < 3; i++) {
+		col[i].style.width = (target[i].clientWidth - 7) + "px";
+	}
+}
 
-function maximize () {
-	var post = document.getElementsByClassName("content")[0];
-	var cont = document.getElementsByClassName("post_content")[0];
-	var wid = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName("body")[0].clientWidth;
+window.onload = tab;
+window.onresize = tab;
 
-	if (wid > 900) {
-		widf = wid * 0.9;
-		post.style.width = widf + "px";
-
-		if (wid < 1400) {
-			cont.style.width = "99%";
-		} else {
-			cont.style.width = "99.4%";
+function sort (x) {
+	var tabl = document.getElementsByTagName("table")[0];
+	var row = document.getElementsByTagName("tr");
+	var add = [];
+	for (r in row) {
+		add[parseInt(r)] = {order: row[r].innerText, code: row[r].innerHTML};
+	}
+	if (x === 1) {
+		tabl.innerHTML = "";
+		var above = document.createElement("tr");
+		above.innerHTML = add[0].code;
+		tabl.appendChild(above);
+		add.splice(0, 1);
+		add.sort(function(a, b) {
+		  var nameA = a.order.toUpperCase();
+		  var nameB = b.order.toUpperCase();
+		  if (nameA < nameB) {
+			return -1;
+		  }
+		  if (nameA > nameB) {
+			return 1;
+		  }
+		  return 0;
+		});
+		var son;
+		for (i = 0; i < add.length; i++) {
+			son = document.createElement("tr");
+			son.innerHTML = add[i].code;
+			tabl.appendChild(son);
+		}
+	} else if (x === 2) {
+		var datesort = [];
+		for (i = 0; i < add.length; i++) {
+			datesort[i] = {order: add[i].order.split("	")[1], code: row[i].innerHTML};
+		}
+		datesort.sort(function(a, b) {
+		  var nameA = a.order.toUpperCase();
+		  var nameB = b.order.toUpperCase();
+		  if (nameA < nameB) {
+			return 1;
+		  }
+		  if (nameA > nameB) {
+			return -1;
+		  }
+		  return 0;
+		});
+		tabl.innerHTML = "";
+		var son;
+		for (i = 0; i < add.length; i++) {
+			son = document.createElement("tr");
+			son.innerHTML = datesort[i].code;
+			tabl.appendChild(son);
 		}
 	}
 }
-
-function minimize () {
-	var post = document.getElementsByClassName("content")[0];
-	var cont = document.getElementsByClassName("post_content")[0];
-	var wid = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName("body")[0].clientWidth;
-
-	if ( wid > 900 ) {
-		post.style.width = "800px";
-		cont.style.width = "98.5%";
-	}
-}
-
-max.addEventListener('click', maximize, false);
-min.addEventListener('click', minimize, false);

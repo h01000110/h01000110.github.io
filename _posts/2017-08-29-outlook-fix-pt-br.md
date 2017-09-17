@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Outlook Fix"
+layout: post
+title: "Outlook Fix.pt_BR"
 tags: css modification adblock pt-br
 ---
 
