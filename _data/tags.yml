@@ -13,6 +13,9 @@ flask:
 javascript:
   name: javascript
 
+jekyll:
+  name: jekyll
+
 jquery:
   name: jquery
 
@@ -36,6 +39,9 @@ shell-script:
 
 svg:
   name: svg
+
+theme:
+  name: theme
 
 youtube:
   name: youtube
