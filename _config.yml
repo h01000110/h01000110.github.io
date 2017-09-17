@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: http://h01000110.github.io
-baseurl: /projeto
+baseurl: /project
 
 # variables
 name: h01000110
