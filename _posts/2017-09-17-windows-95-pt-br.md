@@ -16,6 +16,10 @@ esse é um tema jekyll inspirado no saudoso Windows 95, trazendo um "windows exp
 * página de erro 404
 * página sobre
 
+## recursos de terceiros
+[Font Awesome](http://fontawesome.io/)  
+[highlight.js](https://highlightjs.org/)
+
 ## changelog
 > 2017-08-23 version 0.1  
 
