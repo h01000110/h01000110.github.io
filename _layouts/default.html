@@ -4,6 +4,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	{% if page.title %}
+	<meta name="description" content="{{ page.content | truncate: 160 | strip_html | strip_newlines }}">
+	{% endif %}
+	{%if page.tags %}
+	<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+	{%endif %}
     {% if page.title or page.title == 'me' %}
         <title>{{ site.url }}{{ page.url }}</title>
     {% else %}
