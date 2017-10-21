@@ -19,6 +19,9 @@ jekyll:
 jquery:
   name: jquery
 
+melhoria:
+  name: melhoria
+
 modification:
   name: modification
 
